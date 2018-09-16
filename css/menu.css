@@ -1,0 +1,51 @@
+#taskbar{
+    height:33px;
+    width:200%;
+    top:0;
+    left:0;
+    /* position:fixed; */
+    bottom:auto;
+    z-index:9999999;
+    background:url(img/original.gif) repeat-x 0 0;
+    }
+#taskbar a{text-decoration:none;}
+.taskbar{
+    width:990px;
+    margin:0 auto;
+    }
+.taskbar-sort li{
+    float:left;
+    list-style:none;
+    margin-top:5px;
+    }
+.taskbar-sort li a, .taskbar-sort li a span{
+    height:28px;
+    display:block;
+    float:left;
+    }
+.taskbar-sort li a{
+    padding-left:10px;
+    color:#eee;
+    line-height:28px;
+    }
+.taskbar-sort li a span{
+    padding-right:10px;
+    }
+.taskbar-sort li a.active, .taskbar-sort li a:hover{
+    color:#444;
+    text-decoration:none;
+    background:url(images/bg-taskbar-active.gif) no-repeat 0 0;
+    }
+.taskbar-sort li a.active{
+    color:#333;
+    font-weight:bold;
+    }
+.taskbar-sort li a.active span, .taskbar-sort li a:hover span{
+    background:url(images/bg-taskbar-active.gif) no-repeat 100% 0;
+    }
+.taskbar-sort li a.active .icon-tasbar-nl, .taskbar-sort li a:hover .icon-tasbar-nl{
+    background:url(images/icon-nl-taskbar-active.gif) no-repeat 0 0;
+    }
+.taskbar-sort li a.active .icon-tasbar-pp, .taskbar-sort li a:hover .icon-tasbar-pp{
+    background:url(images/icon-pp.png) no-repeat 0 0;
+    }
